@@ -15,13 +15,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int n = 2;
-        int badanswer = 0;
 
         System.out.println("Угодай число от 0 до 9, у тебя " + (n + 1) + " попыток");
 
         for (int i = 0; i <= n; i++) {
-
-
 
             int answer = scanner.nextInt();
 
